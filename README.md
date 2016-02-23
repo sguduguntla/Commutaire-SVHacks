@@ -1,4 +1,8 @@
-# Commutaire-SVHacks: http://tinyurl.com/commutaire
+# Commutaire-SVHacks: 
+
+http://tinyurl.com/commutaire
+
+Built at SV Hacks 2016 with Jai Sankar and Mitesh Malaviya.
 
 #Inspiration
 
