@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.sguduguntla.saihomepage"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.sguduguntla.saihomepage"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.sguduguntla.saihomepage"
+        }
+    },
+    "dependent_plugins": {}
+}

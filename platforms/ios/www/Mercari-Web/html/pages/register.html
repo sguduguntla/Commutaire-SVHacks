@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Mercari Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/icons/favicon.ico">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Essentially we are connecting individuals with ideas to individuals that can make those ideas into a reality.">
+    <meta name="author" content="Sriharsha G., Jai S., Varun S., Anirudh P.">
+    <!--Mobile App Compatibility-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Mercari">
+    <meta itemprop="description" content="Essentially we are connecting individuals with ideas to individuals that can make those ideas into a reality.">
+    <meta itemprop="image" content="../../img/icons/apple-touch-icon-180x180.png">
+    <!--Facebook Open Graph Data-->
+    <meta property="og:title" content="Mercari" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../../img/icons/apple-touch-icon-180x180.png" />
+    <meta property="og:url" content="http://176.32.230.17/sriharshaguduguntla.com/mercari/html/index.html" />
+    <meta property="og:description" content="Essentially we are connecting individuals with ideas to individuals that can make those ideas into a reality." />
+    <!--Twitter Card Data-->
+    <meta name="twitter:card" content="Essentially we are connecting individuals with ideas to individuals that can make those ideas into a reality.">
+    <meta name="twitter:url" content="http://176.32.230.17/sriharshaguduguntla.com/mercari/html/index.html">
+    <meta name="twitter:title" content="Mercari">
+    <meta name="twitter:description" content="Essentially we are connecting individuals with ideas to individuals that can make those ideas into a reality.">
+    <meta name="twitter:image" content="../../img/icons/apple-touch-icon-180x180.png">
+    <!--Apple Touch Icons-->
+    <link rel="apple-touch-icon" href="../../img/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../../img/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../img/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../img/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../img/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../img/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../img/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../img/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../img/icons/apple-touch-icon-180x180.png">
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <!-- CSS Libs -->
+    <link rel="stylesheet" type="text/css" href="../../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/css/bootstrap-switch.min.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/css/checkbox3.min.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/css/dataTables.bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/css/select2.min.css">
+    <!-- CSS App -->
+    <link rel="stylesheet" type="text/css" href="../../dist/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../dist/css/themes/flat-blue.css">
+</head>
+
+<body class="flat-blue login-page">
+    <div class="container">
+        <div class="login-box">
+            <div>
+                <div class="login-form row">
+                    <div class="col-sm-12 text-center login-header">
+                        <img src="../../img/mercari.png" width="150" height="150" />
+                        <h4 class="login-title" style="font-size: 1.5em">M E R C A R I</h4>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="login-body">
+                            <div class="progress hidden" id="login-progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    Registering...
+                                </div>
+                            </div>
+                            <form>
+                                <div class="control">
+                                    <input type="text" class="form-control" id="registerName" placeholder="Name" required/>
+                                </div>
+                                <div class="control">
+                                    <input type="email" class="form-control" id="registerEmail" placeholder="Email" required/>
+                                </div>
+                                <div class="control">
+                                    <input type="text" class="form-control" id="registerUsername" placeholder="Username" required/>
+                                </div>
+                                <div class="control">
+                                    <input type="password" class="form-control" id="registerPassword" placeholder="Password" required/>
+                                </div>
+                                <div class="control">
+                                    <input type="password" class="form-control" id="registerConfirmPassword" placeholder="Confirm Password" required/>
+                                </div>
+                                <div class="control">
+                                    <input type="text" class="form-control" id="registerPhone" placeholder="Phone Number" maxlength="11" required/>
+                                </div>
+                                <div class="login-button text-center">
+                                    <input type="submit" class="btn btn-primary form-control" id="registerBtn" value="Register" required/>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="login-footer" style="text-align:center;">
+                            <span class="color-blue" style="margin:0 auto;">Already have an account? <a href="login.html" style="color: gray">Login</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Javascript Libs -->
+    <script type="text/javascript" src="../../lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/Chart.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/bootstrap-switch.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="../../lib/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/select2.full.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/ace/ace.js"></script>
+    <script type="text/javascript" src="../../lib/js/ace/mode-html.js"></script>
+    <script type="text/javascript" src="../../lib/js/ace/theme-github.js"></script>
+    <!-- Javascript -->
+    <script type="text/javascript" src="../../js/app.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+    <script type="text/javascript" src="../../js/ParseController.js"></script>
+    <!-- <script type="text/javascript" src="../../js/script.js"></script>-->
+</body>
+
+</html>
